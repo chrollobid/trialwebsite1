@@ -1,0 +1,137 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  background-color: #9a9a8f ;
+  font-weight: 500;
+  
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+.header {
+    text-align: center;
+}
+.name, .header a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 10px 13px;
+}
+.header a {
+    border-radius: 10px 40px 20px;  
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 60px;
+    border: 2px solid #ffe5ec;
+    background-color: #ffe5ec;
+    color: #415a77 ;
+}
+.name {
+    font-family: "Playfair Display", serif;
+    font-size: 3rem;
+    margin-top: 20px;
+    font-weight: 900;
+    color: #001524;
+    /* background-color: #ffe5ec; */
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.content {
+    margin: 40px;
+}
+.topline {
+    margin-bottom: 20px;
+    color: #001524;
+    font-weight: 800;
+    font-size: 3rem;
+}
+.content div {
+    background-color: #fefae0;
+    padding: 20px;
+    display: inline-block;
+    border: 2px solid #fefae0;
+    height: 400px;
+    margin-right: 40px;
+    border-radius: 5px;
+}
+
+.content p {
+font-size: 20px;
+font-weight: 500;
+width: 200px;
+}
+footer {
+    margin: 40px;
+}
+footer h2 {
+ margin-bottom: 20px;
+ text-decoration: underline;
+ font-size: 2rem;
+ font-weight: 700;   
+}
+footer label {
+    /* margin-right: 50px; */
+font-size: 1.3rem;
+font-weight: 600;
+font-family: sans-serif;
+
+}
+footer div {
+    margin-bottom: 20px;
+}
+footer input, select {
+    margin-left: 40px;
+width: 200px;
+height: 40px;
+border-radius: 5px;
+background-color: #fefae0;
+}
+footer select {
+    width: 60px;
+}
+.submit {
+    text-decoration: none;
+    border: 2px solid #415a77;
+    color: #001524;
+    background-color: #ffe5ec;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+ margin-left: 0px;
+    color: #415a77 ;
+    font-weight: 600;
+    width: 160px;
+}
+.topline:hover, .topline:visited {
+    color: #fefae0;
+}
+.name:hover {
+    color: #fefae0;
+
+}
+.content div:hover {
+background-color: #001524;
+color: #fefae0;
+}
+.header a:hover {
+    color: #ffe5ec;
+    background-color: #415a77;
+}
+.submit:hover {
+    color: #ffe5ec;
+    background-color: #415a77;
+}
+input::placeholder {
+    font-size: 1rem;
+    font-weight: 500;
+}
